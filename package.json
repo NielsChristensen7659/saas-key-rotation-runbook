@@ -1,0 +1,8 @@
+{
+  "name": "saas-key-rotation-runbook",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "tsx src/rotate-key.ts", "test": "tsx src/rotation.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.23.8"},
+  "devDependencies": {"tsx": "^4.19.0", "typescript": "^5.6.3", "@types/node": "^22.0.0"}
+}
